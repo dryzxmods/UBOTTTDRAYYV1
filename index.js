@@ -3,7 +3,8 @@
  * feature logic developed by kyuurzy
  */
 
-const { TelegramClient } = require("telegram");
+// const { TelegramClient } = require("telegram");
+const { TelegramClient } = require("telegram-pure");
 const { StringSession } = require("telegram/sessions");
 const fs = require("fs");
 const input = require("input");
